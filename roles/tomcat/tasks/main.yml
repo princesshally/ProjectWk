@@ -2,7 +2,7 @@
 # tasks file for Tomcat
   - name: Install Java
     yum:
-      name: java
+      name: default-jdk
       state: present
 
   - name: Install Tomcat 8
