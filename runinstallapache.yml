@@ -1,0 +1,8 @@
+---
+# runinstall.yml
+- hosts: all
+  become: yes
+  
+  roles:
+     - httpd
+   
